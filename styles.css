@@ -1,0 +1,91 @@
+/* Global Styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b1a36; /* Navy blue */
+    color: white;
+}
+
+/* Header / Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0b1a36;
+    border-bottom: 1px solid #1e2e50;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    background-color: #1e2e50;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #324a7a;
+}
+
+/* Content Pages */
+.content {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background-color: #1e2e50;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.card .btn {
+    margin-top: 15px;
+    display: inline-block;
+}
